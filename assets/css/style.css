@@ -1,38 +1,95 @@
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-size: 16px;
+    box-sizing: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/* Header */
+header{
+    
+}
+
+heade   r {
+    margin-right: 1rem;
 }
 .nav-bar {
     display: flex;
-    gap: 1rem;
     justify-content: flex-end;
     align-items: center;
-    height: 2rem;
+    gap: 1rem;
+    height: 6rem;
+    width: 99%;
+}
+
+.icon {
+    margin-right: 1rem;
+    width: 2.4rem;
+    height: 2.4rem;
+
+}
+
+.nav-bar a img {
+    border-radius: 50%;
+    align-items: center;
+}
+
+a {
+    margin-right: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    color: black;
 }
 
 .google-products {
     background-image: url();
     width: auto;
-
 }
 
-.profile-container{
-    background-color: black;
-    border-radius: 50%;
-}
-
+/* Main content */
 .main-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80%;
-    width: 100%;
 }
 
 .logo {
     width: 30rem;
     height: 10rem;
+    margin-bottom: 10rem;
+}
+
+.search-container {
+    display: flex;
+    border: 0.1rem solid;
+    border-radius: 1.5rem;
+    margin: 1rem;
+}
+.searchbar {
+    width: 50rem;
+    border: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.button-container button {
+    padding: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
 }
