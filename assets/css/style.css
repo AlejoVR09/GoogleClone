@@ -65,28 +65,48 @@ a {
 .logo {
     width: 30rem;
     height: 10rem;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
 }
 
 .search-container {
     display: flex;
     border: 0.1rem solid;
-    border-radius: 1.5rem;
+    border-radius: 3rem;
     margin: 1rem;
+    padding: 1rem;
 }
+
+.search-container:hover {
+    box-shadow: 0 1px 6px 0 black;
+}
+
 .searchbar {
     width: 50rem;
     border: none;
+    outline: none;
 }
 
 .button-container {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    margin-top: 2rem;
 }
 
 .button-container button {
-    padding: 1rem;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.main-content .icon {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.micro {
+    cursor: pointer;
 }
 
 footer {
