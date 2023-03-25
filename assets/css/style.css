@@ -70,7 +70,7 @@ a {
 
 .search-container {
     display: flex;
-    border: 0.1rem solid;
+    border: 0.1rem solid #e4e4e4;
     border-radius: 3rem;
     margin: 1rem;
     padding: 1rem;
@@ -110,6 +110,20 @@ a {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    border: 1px #e4e4e4;
+    
+}
+
+.footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    margin: 1rem;
+}
+
+.footer-container a{
+    font-size: 1.4rem;
 }
